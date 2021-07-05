@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img {
+	border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.img_2 {
+	border-radius: 25px;
+    width: 45px;
+    height: 45px;
+}
+
+.image {
+	float: left;
+    width: 74px;
+    height: 60px;
+    padding-left: 5px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.colorlist{
+    overflow: auto;
+    width: 895px;
+    height: 362px;
+    background-color: #FFF;
+    border: 3px solid #696969;
+    float: left;
+}
+
+.lbl_color {
+	width: 70px; 
+	font-size:10.5px; 
+	font-family:Times New Roman;
+}
+
+.lbl{
+	    line-height: 3;
+		text-align:center;
+}
+
+.mix_color {
+    overflow: auto;
+    width: 835px;
+    height: 362px;
+    background-color: #FFF;
+    float: left;
+	    padding-top: 20px;
+}
+
+.black_color {
+	float: left;
+    width: 330px;
+    padding-bottom: 14px;
+    padding-left: 45px;
+}
+
+.fine {
+	    width: 45px;
+    font-size: 9px;
+    border-radius: 5px;
+    height: 18px;
+	background-color:#FDDB31;
+}
+
+.loop_btn {
+	padding-left: 75px;
+}
+
+.black_percent {
+	    border: 0;
+    font-size: 10px;
+    font-weight: bold;
+    width: 30px;
+    background-color: #000;
+    color: #fff;
+    float: right;
+	text-align: center;
+}
+
+.switch {
+	padding-bottom: 10px;
+}
+
+.black_2 {
+	padding-left: 10px;
+    float: left;
+    padding-top: 3px;
+    width: 68.82%;
+}
+
+#add_another {
+    width: 313px;
+    color: #000000;
+    border-style: solid;
+    border: dashed;
+    border-width: 2px;
+    float: left;
+    height: 60px;	
+}
+
+.common_progress {
+	padding: 65px 0px 20px 25px;
+	    border: 2px solid burlywood;
+	float:left;
+	width:240px;
+}
+
+.common_progress_2{
+	float: left; 
+	padding-top:2.2em;
+	position: absolute;
+}
+
+.common_progress_lbl{
+	padding-right:10px;
+	 font-weight: bold;
+	  color:black;
+	   font-size:18px;
+	       padding-left: 28px;
+}
+
+.common_progress_input{
+	border:0;
+	position:absolute;
+	font-weight:bold;
+	 width:50px;
+	 background-color:#cacbcc; 
+	 color:black;
+	 text-align:center;
+	 font-size: 18px;
+}
+
+.coarse {
+    background-color: #FDDB31;
+    width: 45px;
+    font-size: 9px;
+    border-radius: 5px;
+    height: 18px;
+}
+
+#slider_amount {
+    float: left;
+    padding-left: 25px;
+    width: 20px;
+}
+/*#slider-range-progress {
+    width: 210px;
+    float: left;
+    height: 40px;
+    background-color: white;
+    pointer-events: none;
+}*/
+#slider-range-progress {
+    width: 210px;
+    float: left;
+    height: 40px;
+    background-color: white;
+    pointer-events: none;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 19px;
+    cursor: pointer;
+}
+/*.ui-widget-content {
+    border: 0px solid #ccc;
+    background: #414141;
+    color: #222222;
+    border-radius: 10px;
+    padding: 0.5em 0.35em !important;
+}
+
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.progress_total a {
+    display: none !important;
+}
+ui-slider-handle ui-corner-all ui-state-default {
+	display:none;
+}*/
+
+.progress_total span {
+	display:none;
+}
+
+.progress_btn {
+	    padding-top: 85px;
+    padding-left: 30px;
+}
+
+.progress_btn_2 {
+	display: -webkit-box;
+}
+
+.display_btn {
+	    border-radius: 40px;
+    padding-right: 85px;
+}
+
+.swatch-main {
+    float: left;
+    width: 300px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.swatch_1 {
+	margin-left: 25px;
+	position: absolute;
+	margin-top: 46.5em;
+	width:1070px;
+	border: 3px solid aliceblue;
+}
+
+.swatch_2 {
+	margin-left:32px; height: 336px; width: 455px; float: left; 
+}
+
+.swatch_3{
+	float: left; padding-top: 25px;
+}
+
+.color_mixture {
+	position:absolute; clip: rect(2px, 315px, 295px, 5px);
+}
+
+.conf_popup {
+    width: 25%;
+    padding-left: 500px;
+}
+
+.slider_box{
+	float:left;
+	background-color:#ffcc994d;
+}
+
+#info {
+	float:left;
+	padding-bottom:10px;
+	padding-top: 20px;	
+}
+
+.formula {
+	text-alignment:left;
+    color: #ebac00;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.img_grid {
+											
+	float: left;
+    padding-left: 32px;
+    margin-top: 55px;
+    width: 290px;
+    height: 330px;
+}
+
+.grid_lbl {
+		color:#ebac00;
+		width: 250px;
+		font-size:20px;
+}
+
+.display_small_img{
+	width: 75px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom:25px;
+	border-style: solid;
+	height: 90px;
+	float:left;
+	overflow:hidden;
+	margin-right: 5px;
+}

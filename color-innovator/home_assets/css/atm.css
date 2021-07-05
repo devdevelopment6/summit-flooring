@@ -1,0 +1,167 @@
+/*.top_of_header {
+    display: flex;
+}*/
+.atm_logo{
+	width: 50px;
+}
+li.articles {
+    margin-top: 11px;
+    display: inline-block;
+    padding: 2px 26px;
+    border-right: 1px solid;
+}
+span.cma {
+    color: red;
+}
+.comat {
+    display: flex;
+}
+header::after 
+{
+	display:none;
+}
+header::before
+{
+	display:none;
+}
+.button1 {
+	padding: 0px 9px;
+    background-color: white;
+    color: #849385;
+    border: 1px solid #4CAF50;
+}
+.hrl_3
+{
+	padding: 2px 10px;
+	border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+	border-color:#228b8a;
+	color: #228b8a;
+    background: #fff;
+}
+.hrl_3:hover{
+	background-color:red;
+}
+.left_side p {
+    color: #228b8a;
+}
+.steps:hover {
+    background-color: #4ec2a2;
+}
+.articles a {
+    display: flex;
+    flex-direction: column;
+	text-align: center;
+	padding: 10px 0;
+	text-decoration: none;
+}
+li.articles:last-child {
+    border-right: none;
+}
+.list_menu li a:hover{ color:red; } 
+.left_side {
+    float: left;
+	text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.right_site {
+    float: rignt;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.articles a span {
+    color: #228b8a;
+}
+.menu_section {
+    background: #268682;
+    margin-top: 20px;
+}
+.steps {
+    display: flex;
+    border-right: 1px solid #fff;
+    justify-content: center;
+	padding: 10px;
+}
+.steps:last-child {
+    border-right: none;
+}
+.steps a{
+	color:white;
+	text-align: center;
+	text-decoration: none;
+}
+hr.new4 {
+    width: 86%;
+    border: 0.5px solid green;
+}
+.submit-flooring {
+    display: block;
+    text-align: center;
+}
+.submit-flooring li {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #3e3c3c;
+}
+@media screen and (max-width: 768px)
+{
+	.steps
+	{
+      width: 16%;
+      display: inline-block;
+    }
+	.step
+	{
+     display: none;
+    }
+	.links.login_section 
+	{
+     	position: relative;
+    	left: 63px;
+	}
+}
+@media screen and (max-width: 625px){
+	.fa-3x
+	{
+    	font-size: 4em;
+	}
+	li.articles{
+		padding: 2px 19px;}
+	}
+	
+@media screen and (max-width:576px)
+{
+	.left_side p 
+	{
+    	font-size: 10px;
+	}
+	.articles a span 
+	{
+    	font-size:10px;
+	}
+	.links.login_section {
+    position: relative;
+    left: 87px;
+}
+}
+@media screen and (max-width: 480px)
+{
+	.steps
+	{
+    	width: 15%;
+	}
+	li.articles
+	{
+		padding: 2px 7px;}
+	
+}
+@media screen and (max-width:375px)
+{
+	li.articles{padding: 2px 1px;}
+}
+

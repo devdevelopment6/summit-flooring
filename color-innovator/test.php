@@ -1,0 +1,1 @@
+<?php echo phpinfo(); echo "test doll"; ?>
