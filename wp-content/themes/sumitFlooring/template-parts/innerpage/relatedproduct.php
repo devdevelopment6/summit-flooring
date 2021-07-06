@@ -53,7 +53,7 @@
                  
 
                 <div class="product-content-detail">
-                  <div class="product-title">KIDZ KOLLECTION</div>
+                  <div class="product-title"><?php echo $title;?></div>
                 </div>
               </div>
 

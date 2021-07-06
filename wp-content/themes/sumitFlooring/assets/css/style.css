@@ -832,7 +832,12 @@ html{
     position: relative;
 }
 
-
+.product-box .product-content{position:relative;height:200px;}
+.product-box .product-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 .team-thumb::before, .reference-thumb::before, .brand-thumb::before, .insight-thumb::before, .product-presentation-thumb::before, .post-box .post-content::before, .product-box .product-content::before {
     content: '';
     position: absolute;
@@ -866,3 +871,75 @@ html{
     text-align: center;
 }
 
+.product-box span.link-icon::before {
+    content: '';
+    width: 44px;
+    height: 7px;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(https://www.summit-flooring.com/inc/images/icons/arrow21.png);
+        background-size: auto;
+    background-size: 44px;
+    transition: all .4s ease;
+}
+element {
+}
+.product-box span.link-icon {
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    overflow: visible;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background: #FFB900;
+    z-index: 5;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.product-box .product-content {
+    color: #fff;
+}
+
+
+.product-box span.link-icon::before {
+    content: '';
+    width: 44px;
+    height: 7px;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(https://www.summit-flooring.com/inc/images/icons/arrow21.png);
+        background-size: auto;
+    background-size: 44px;
+    transition: all .4s ease;
+}
+element {
+}
+.product-box span.link-icon {
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    overflow: visible;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background: #FFB900;
+    z-index: 5;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.product-box .product-content {
+    color: #fff;
+}

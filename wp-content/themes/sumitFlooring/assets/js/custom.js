@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-  $('.navbar-nav li').removeAttr("class");  
+ /* $('.navbar-nav li').removeAttr("class");  
   $('.navbar-nav li').attr("class",'nav-item'); 
   $('.navbar-nav li a').attr("class",'nav-link dropdown-toggle');
 
@@ -9,10 +9,12 @@ $(document).ready(function(){
  $('.navbar-nav ul').attr("class",'drop-down'); 
   $('.navbar-nav ul li a').attr("class",'nav-link');
 
+
+$("#topmenu").hide();
+$("#showtopmenu").show();*/
+
 $("#homePartnerhide").hide();
 $("#homePartner").show();
-$("#topmenu").hide();
-$("#showtopmenu").show();
 
 $('#owlone').owlCarousel({
    /* loop: true,
@@ -104,4 +106,8 @@ $(document).ready(function(){
         });
 
 })
+
+
+
+
 
