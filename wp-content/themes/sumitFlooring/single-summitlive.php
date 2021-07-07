@@ -35,12 +35,11 @@
 get_header();
 
 ?>
-<link href="<?php echo get_template_directory_uri();?>/assets/css/innerStyle.css" rel="stylesheet" type="text/css" />
 
-<!-- 
+
 <div class="js-offcanvas" id="mobile-nav"></div>
     </div>
- -->
+
     <div class="content_primary">
 
 

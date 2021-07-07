@@ -22,6 +22,9 @@
 $thumb_url_array = wp_get_attachment_image_src($thumb_id, '', true);
 $image = $thumb_url_array[0];
 
+
+
+
 ?>
 <div class="content_primary">
 

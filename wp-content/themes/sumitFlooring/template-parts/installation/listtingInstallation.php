@@ -19,13 +19,11 @@
 
 
 ?>
-
-
 <?php 
 
 $myposts = get_posts(array(
     'showposts' => -1,
-    'post_type' => 'video',
+    'post_type' => 'installation',
     'order' => 'ASC',
      'orderby' => 'ID'
     
@@ -33,11 +31,13 @@ $myposts = get_posts(array(
 
 ?>
 
-
-
-<div id="reference-item-list" class="row">
-			
-		
+<section class="page-content bg-light-grey">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-md-12">
+							</div>
+		</div>
+		<div class="row">
 			<?php foreach ($myposts as $mypost) {     
     
 			      $pid=  $mypost->ID;
@@ -46,27 +46,31 @@ $myposts = get_posts(array(
 			      /*echo "<pre>";
 			      print_r($mypost);*/
 
-				$image= wp_get_attachment_image_src( get_post_thumbnail_id( $pid ));
+				//$image= wp_get_attachment_image_src( get_post_thumbnail_id( $pid ));
+
+ 			$image=wp_get_attachment_url( get_post_thumbnail_id($pid), 'full' );
 
 
       		?>
+			
+				<div class="col-md-4">
 
+					<div class="product-box">
 
-      		<?php //echo get_the_post_thumbnail( $pid );?>
-				<div class="col-md-3 col-sm-4 col-xs-6 element-item <?php echo $tid[0]->slug;?>" data-category="<?php echo $tid[0]->slug;?>">
-
-					<div class="reference-box">
-						<a href="<?php echo get_permalink( $pid );?>">
-							<div class="reference-thumb">
-								<img class="img-fluid" src="<?php echo $image[0];?>" alt="" />				
-								 </div>
-							<div class="reference-name"><?php echo $mypost->post_title ?></div>
+						<a class="product-content" href="<?php echo get_permalink( $pid );?>">
+							<span class="link-icon"></span>
+							<img class="" src="<?php echo $image;?>" alt="" />	
 						</a>
+						<div class="product-content-detail">
+							<div class="product-title"><?php echo $mypost->post_title ?></div>
+						</div>
 					</div>
 
 				</div>
-			<?php } ?>
-				
-			</div>
+			<?php } ?>	
+
+		</div>
+		<div class="row justify-content-center mt-5">
+	</div>
 	</div>
 </section>

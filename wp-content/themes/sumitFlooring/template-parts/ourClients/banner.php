@@ -21,7 +21,9 @@
 //$image= wp_get_attachment_image_src( get_post_thumbnail_id( $post->id ));
  $thumb_id = get_post_thumbnail_id();
 $thumb_url_array = wp_get_attachment_image_src($thumb_id, '', true);
- $image = $thumb_url_array[0];
+ //$image = $thumb_url_array[0];
+
+ $image=wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'full' );
 ?>
 
 <section class="page-banner" style="background-image: url(<?php echo $image;?>);">

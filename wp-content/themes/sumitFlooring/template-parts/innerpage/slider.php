@@ -72,8 +72,7 @@
                 if($i==1){
               ?> 
               <a href="<?php the_permalink(); ?>">
-                  <?php the_title(); ?>
-                  <?php the_title(); ?>
+                  Watch <?php single_post_title(); ?> Product Videos
               </a>
                <?php 
              }

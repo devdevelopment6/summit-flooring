@@ -32,7 +32,12 @@
 
 
 
-get_header(); ?>
+get_header(); 
+
+
+
+ $image=wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'full' );
+?>
 
 
 
@@ -41,7 +46,7 @@ get_header(); ?>
 
 <div class="content_primary">
 
-	<section class="page-banner" style="background-image: url(https://www.summit-flooring.com/inc/upload/images/PLANKX-1.jpg);">
+	<section class="page-banner" style="background-image: url(<?php echo $image;?>);">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8">
@@ -70,7 +75,9 @@ get_header(); ?>
 								<div class="post-date"><?php echo get_the_date( 'd M, Y' );?></div>
 								<div class="post-title"><?php the_title();?></div>
 								<div class="post-text">
-									<?php echo get_the_excerpt();?>								</div>
+									<?php //echo get_the_excerpt();?>				
+									<?php echo get_field('home_blog_content');?>				
+								</div>
 								<div class="post-readmore">read more</div>
 
 							</div>
